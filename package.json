@@ -41,13 +41,17 @@
   "dependencies": {
     "@clytage/command-context": "^4.3.0",
     "@clytage/pino-logger": "^4.3.0",
+    "@sapphire/decorators": "^6.0.2",
     "@sapphire/framework": "^4.6.1",
     "@sapphire/pieces": "^3.7.0",
+    "cheerio": "1.0.0-rc.12",
     "cirql": "^0.7.8",
     "discord.js": "^14.13.0",
     "dotenv": "^16.3.1",
     "pino-pretty": "^10.2.3",
     "surrealdb.js": "^0.9.1",
+    "tslib": "^2.6.2",
+    "undici": "^5.25.4",
     "zod": "^3.22.4"
   }
 }

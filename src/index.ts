@@ -1,8 +1,10 @@
 import "dotenv/config";
 
 import { ActivityType, GatewayIntentBits } from "discord.js";
-import { SOTNClient } from "./Structures/SOTNClient.js";
+import { SOTNClient } from "./structures/SOTNClient.js";
 import "@clytage/pino-logger/register";
+import { dirname, resolve } from "node:path";
+import { fileURLToPath } from "node:url";
 
 const client = new SOTNClient({
     presence: {
@@ -27,6 +29,7 @@ const client = new SOTNClient({
             }
         }
     },
+    baseUserDirectory: resolve(dirname(fileURLToPath(import.meta.url))),
     intents: [
         GatewayIntentBits.Guilds
     ]

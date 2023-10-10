@@ -1,6 +1,7 @@
 import { SapphireClient } from "@sapphire/framework";
 import { Cirql } from "cirql";
 import { databaseEndpoint, databaseNS, databaseDB, databaseUser, DatabasePassword, discordToken } from "../config.js";
+import { OneCak } from "../utilities/OneCak.js";
 
 export class SOTNClient extends SapphireClient {
     public cirql = new Cirql({
@@ -14,6 +15,8 @@ export class SOTNClient extends SapphireClient {
             pass: DatabasePassword
         }
     });
+
+    public oneCak = new OneCak();
 
     public override async login(): Promise<string> {
         await this.cirql.ready();
