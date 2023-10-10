@@ -13,7 +13,7 @@ services:
     networks:
       internet:
         aliases:
-          - bot.internet
+          - bot.sotn-internet
 
 networks:
   sotn-internet:
