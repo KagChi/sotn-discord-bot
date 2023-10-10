@@ -42,6 +42,7 @@
     "@clytage/command-context": "^4.3.0",
     "@clytage/pino-logger": "^4.3.0",
     "@sapphire/framework": "^4.6.1",
+    "@sapphire/pieces": "^3.7.0",
     "cirql": "^0.7.8",
     "discord.js": "^14.13.0",
     "dotenv": "^16.3.1",

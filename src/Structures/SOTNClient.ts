@@ -20,3 +20,11 @@ export class SOTNClient extends SapphireClient {
         return super.login(discordToken);
     }
 }
+
+declare module "@sapphire/pieces" {
+    type SapphireClient = SOTNClient;
+
+    interface Container {
+        client: SapphireClient;
+    }
+}
