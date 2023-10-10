@@ -44,6 +44,6 @@ export class ReadyListener extends Listener {
                     }
                 }
             });
-        }, 5500);
+        }, 15000);
     }
 }
