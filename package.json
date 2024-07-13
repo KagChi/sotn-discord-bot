@@ -45,7 +45,7 @@
     "@sapphire/framework": "^4.8.5",
     "@sapphire/pieces": "^3.10.0",
     "cheerio": "1.0.0-rc.12",
-    "cirql": "^0.7.8",
+    "cirql": "^1.0.1",
     "discord.js": "^14.13.0",
     "dotenv": "^16.3.1",
     "pino-pretty": "^10.2.3",

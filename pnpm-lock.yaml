@@ -24,8 +24,8 @@ dependencies:
     specifier: 1.0.0-rc.12
     version: 1.0.0-rc.12
   cirql:
-    specifier: ^0.7.8
-    version: 0.7.8(ws@8.14.2)(zod@3.22.4)
+    specifier: ^1.0.1
+    version: 1.0.1(surrealdb.js@0.9.1)(ws@8.14.2)(zod@3.22.4)
   discord.js:
     specifier: ^14.13.0
     version: 14.13.0
@@ -1262,12 +1262,14 @@ packages:
       parse5-htmlparser2-tree-adapter: 7.0.0
     dev: false
 
-  /cirql@0.7.8(ws@8.14.2)(zod@3.22.4):
-    resolution: {integrity: sha512-LPzJJvS5ya77H1ULQJeQfiuHer69nqKFSfKZgZf3NVO8rWhbBhy4YuK60y+B8BGJFBya1tuetbFZrPsQ8Npbfg==}
+  /cirql@1.0.1(surrealdb.js@0.9.1)(ws@8.14.2)(zod@3.22.4):
+    resolution: {integrity: sha512-4JIPI0WEMGe6MFqDZQGjfgMIWItBjmE7aOUkVLbU0QX07ZZVlwkC7a33aWBaB6mLRqLe3xH7URE769G1+7LxPA==}
     peerDependencies:
+      surrealdb.js: ^0.10.1
       zod: ^3.20.2
     dependencies:
       isomorphic-ws: 5.0.0(ws@8.14.2)
+      surrealdb.js: 0.9.1
       vitest: 0.29.8
       zod: 3.22.4
     transitivePeerDependencies:
@@ -2143,6 +2145,7 @@ packages:
 
   /loupe@2.3.6:
     resolution: {integrity: sha512-RaPMZKiMy8/JruncMU5Bt6na1eftNoo++R4Y+N2FrxkDVTrGvcyzFTsaGif4QTeKESheMGegbhw6iUAq+5A8zA==}
+    deprecated: Please upgrade to 2.3.7 which fixes GHSA-4q6p-r6v2-jvc5
     dependencies:
       get-func-name: 2.0.2
     dev: false
