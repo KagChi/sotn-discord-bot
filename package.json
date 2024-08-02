@@ -14,13 +14,13 @@
   "license": "GPL-3.0",
   "devDependencies": {
     "@hazmi35/eslint-config": "^11.0.0",
-    "@swc/cli": "^0.1.62",
-    "@swc/core": "^1.3.92",
-    "@types/node": "^18.18.4",
+    "@swc/cli": "^0.4.0",
+    "@swc/core": "^1.7.5",
+    "@types/node": "^18.19.43",
     "@typescript-eslint/eslint-plugin": "^6.21.0",
     "@typescript-eslint/parser": "^6.21.0",
     "eslint": "^8.57.0",
-    "rimraf": "^5.0.5",
+    "rimraf": "^5.0.10",
     "typescript": "^5.5.3"
   },
   "eslintConfig": {
@@ -45,13 +45,13 @@
     "@sapphire/framework": "^4.8.5",
     "@sapphire/pieces": "^3.10.0",
     "cheerio": "1.0.0-rc.12",
-    "cirql": "^0.7.8",
-    "discord.js": "^14.13.0",
-    "dotenv": "^16.3.1",
-    "pino-pretty": "^10.2.3",
-    "surrealdb.js": "^0.9.1",
-    "tslib": "^2.6.2",
-    "undici": "^5.25.4",
-    "zod": "^3.22.4"
+    "cirql": "^0.7.9",
+    "discord.js": "^14.15.3",
+    "dotenv": "^16.4.5",
+    "pino-pretty": "^10.3.1",
+    "surrealdb.js": "^0.11.1",
+    "tslib": "^2.6.3",
+    "undici": "^5.28.4",
+    "zod": "^3.23.8"
   }
 }
